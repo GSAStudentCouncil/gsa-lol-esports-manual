@@ -1,0 +1,152 @@
+/*
+font cite
+Pangram Pangram Foundary - Monument Extended
+*/
+
+@font-face {
+  font-family: "Monument Extended Black";
+  src: url("../font/PPMonumentExtended-Black.otf");
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.logo-container {
+  font-family: "Monument Extended Black";
+}
+
+.logo {
+  margin: 20px;
+  width: 40px;
+  height: auto;
+}
+
+.timer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.timer-display {
+  font-family: "Monument Extended Black";
+  font-size: 17em;
+  color: #fff;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.timer-display span {
+  display: inline-flex;
+  justify-content: center;
+  width: 1.2em;
+}
+
+.colon {
+  margin: 0 0.08em;
+}
+
+.LCG-title {
+  font-family: "Monument Extended Black";
+  margin: 20px;
+  margin-bottom: 40px;
+  font-size: 4em;
+  color: #fff;
+  letter-spacing: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.team-info {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.team-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  color: #fff;
+  font-family: "Monument Extended Black";
+  font-size: 4em;
+  letter-spacing: 2px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.team-logo {
+  width: 280px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Adjustments to bring names closer to the center */
+.team-name:first-child {
+  padding-left: 90px;
+  font-size: 6em;
+}
+
+.team-name:last-child {
+  padding-right: 50px;
+}
+
+.production-logos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+.production-logo {
+  width: auto;
+  height: 30px;
+  margin: 0 40px;
+}
+
+/*#####################background animation#####################*/
+
+.particle-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.particle {
+  position: absolute;
+  bottom: -50px;
+  background-color: rgba(243, 243, 243, 0.7);
+  border-radius: 50%;
+  opacity: 0.5;
+  animation: floatUp 20s infinite linear;
+}
+
+@keyframes floatUp {
+  0% {
+    bottom: -50px;
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    bottom: 110%;
+    opacity: 0;
+  }
+}
