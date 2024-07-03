@@ -24,15 +24,15 @@
 - [lol-pick-ban-ui](https://github.com/RCVolus/lol-pick-ban-ui) 세팅
 
 > **주의사항**
-> 
+>
 > 2024년 당시 대회를 준비할 때는 [league-prod-toolkit](https://github.com/RCVolus/league-prod-toolkit)에 문제([해당이슈](https://github.com/RCVolus/league-prod-toolkit/issues/668))가 있었기에 [lol-pick-ban-ui](https://github.com/RCVolus/lol-pick-ban-ui)를 사용했습니다.
-> 만약 대회를 준비할 때, [league-prod-toolkit](https://github.com/RCVolus/league-prod-toolkit)에 나와있는 방법대로 설치를 진행하여 문제가 생기지 않는다면 [league-prod-toolkit](https://github.com/RCVolus/league-prod-toolkit)를 사용하는 것이 더 좋습니다. 
-> 
+> 만약 대회를 준비할 때, [league-prod-toolkit](https://github.com/RCVolus/league-prod-toolkit)에 나와있는 방법대로 설치를 진행하여 문제가 생기지 않는다면 [league-prod-toolkit](https://github.com/RCVolus/league-prod-toolkit)를 사용하는 것이 더 좋습니다.
+>
 > 밴픽화면만 있는 [lol-pick-ban-ui](https://github.com/RCVolus/lol-pick-ban-ui)와 달리 [league-prod-toolkit](https://github.com/RCVolus/league-prod-toolkit)는 인게임 레이아웃, 게임이 끝난 뒤 스탯 화면등이 제공됩니다.
 > 라이엇 api는 키를 발급받아서 사용하시면 됩니다.
 
 > **주의사항**
-> 
+>
 > 위의 예시 영상에서 밴픽과 인게임 화면에서 팀 이름이 표시되는 화면은 [league-prod-toolkit](https://github.com/RCVolus/league-prod-toolkit)에서 module-teams 기능만 설치하여 사용한 결과입니다.
 
 ### 1.3 리소스 서버용 컴퓨터
@@ -41,4 +41,4 @@
 
 - Node.js
 - Ngrok(localhost를 외부에서 접속할 수 있게 해주는 프로그램)
-- 이 repository의 코드들
+- 이 repository의 코드들 ([설명서](https://github.com/GSAStudentCouncil/gsa-lol-esports-manual/blob/main/web-assets/README.md))
